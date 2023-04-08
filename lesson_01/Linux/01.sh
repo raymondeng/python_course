@@ -1,6 +1,3 @@
-# 写一个查询端口1883是否正常的shell脚本
-# 1.查询端口是否存在
-
 #!/bin/bash
 
 # Check if port 1883 is open and listening
