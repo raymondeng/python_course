@@ -121,11 +121,9 @@
      - [python的列表，字典，元组，集合的区别和各自使用方法](https://blog.csdn.net/qq_42554007/article/details/90489570)
      - [python try 异常处理](https://zhuanlan.zhihu.com/p/63877158)
      - [Python3包管理](https://blog.csdn.net/Pythonlaowan/article/details/101290087)
-     - 面向对象
+     - 面向对象 Class
      - 网络编程 
      - Web应用
 
 
-## 四、课后作业
-- 在linux服务器上完成指令练习
-- 理解并修改样例，并在服务器中正常运行
+
