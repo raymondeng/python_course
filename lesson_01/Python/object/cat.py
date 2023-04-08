@@ -21,6 +21,7 @@ class Car:
     def increment_odometer(self, miles):
         self.odometer_reading += miles
 
+
 class ElectricCar(Car):
     def __init__(self, make, model, year):
         super().__init__(make, model, year)
@@ -31,6 +32,7 @@ class ElectricCar(Car):
 
     def fill_gas_tank(self):
         print("This car doesn't need a gas tank!")
+
 
 my_tesla = ElectricCar('tesla', 'model s', 2021)
 print(my_tesla.get_descriptive_name())

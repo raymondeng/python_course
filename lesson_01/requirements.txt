@@ -1,4 +1,3 @@
 openai
-flask
-socketio
+flask~=1.1.2
 fastapi
