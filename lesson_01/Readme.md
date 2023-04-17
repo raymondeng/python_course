@@ -17,6 +17,7 @@
    - 文件路径 which
    - 文件权限 chmod +r +w +x
    - 文件归属 chown
+   - 文件监控 tail -f
    - 查询 grep
    - 进程查看 ps -ef 
    - 管道命令 |
@@ -121,9 +122,9 @@
      - [python的列表，字典，元组，集合的区别和各自使用方法](https://blog.csdn.net/qq_42554007/article/details/90489570)
      - [python try 异常处理](https://zhuanlan.zhihu.com/p/63877158)
      - [Python3包管理](https://blog.csdn.net/Pythonlaowan/article/details/101290087)
-     - 面向对象
-     - 网络编程 
-     - Web应用
+     - 面向对象，参见案例
+     - 网络编程，参见案例
+     - Web应用，参见案例
 
 
 ## 四、课后作业

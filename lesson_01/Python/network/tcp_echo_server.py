@@ -15,3 +15,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 break
             conn.sendall(data)
 
+# TCP -> http 可靠性高，但是效率低 指令
+# UDP -> 可靠性比较低，但是效率高
+
+# 写一个UDP服务端，来广播流媒体数据

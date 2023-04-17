@@ -34,6 +34,38 @@ class ElectricCar(Car):
         print("This car doesn't need a gas tank!")
 
 
+# 定义一个燃油车的类
+class GasCar(Car):
+    def __init__(self, make, model, year):
+        super().__init__(make, model, year)
+        self.gas_tank_size = 75
+
+    def describe_gas_tank(self):
+        print(f"This car has a {self.gas_tank_size}-kWh gas tank.")
+
+    def fill_gas_tank(self):
+        print("This car doesn't need a gas tank!")
+
+
 my_tesla = ElectricCar('tesla', 'model s', 2021)
 print(my_tesla.get_descriptive_name())
 my_tesla.describe_battery()
+
+# 丰田燃油车的对象
+my_toyota = GasCar('toyota', 'camry', 2021)
+print(my_toyota.get_descriptive_name())
+my_toyota.describe_gas_tank()
+
+# 遍历一个汽车列表
+cars = [my_tesla, my_toyota]
+for car in cars:
+    print(car.get_descriptive_name())
+    car.fill_gas_tank()
+
+# 面向对象编程
+
+# 面向流程编程
+
+def main():
+    pass
+
